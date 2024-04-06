@@ -58,14 +58,14 @@ function SavedProducts() {
                   alt=""
                   className=" hover: h-40 w-11/12 rounded-t-xl"
                 />
-                <div className="bg-white rounded-full w-9 h-9 p-1 flex items-center justify-center absolute top-5 right-5 cursor-pointer	">
+                <div className="bg-white  rounded-full w-9 h-9 p-1 flex items-center justify-center absolute top-5 right-5 cursor-pointer	">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="#11875c"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-6 h-6 text-black caret-lime-500"
+                    stroke="none"
+                    className="w-6 h-6  caret-lime-500"
                   >
                     <path
                       strokeLinecap="round"

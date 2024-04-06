@@ -27,7 +27,7 @@ function Mixed() {
                   fill="#11875c"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
-                  stroke="currentColor"
+                  stroke="none"
                   className="w-6 h-6 text-black caret-lime-500"
                 >
                   <path
