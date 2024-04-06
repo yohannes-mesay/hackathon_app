@@ -1,5 +1,6 @@
 import { LeftNav } from './components/LeftNav'
 import {BrowserRouter as Router,Routes, Route} from "react-router-dom"
+import Saved from './pages/Saved'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
           <Route path='/Products'/>
           <Route path='/Services'/>
           <Route path='/Events'/>
-          <Route path='/Saved'/>
+          <Route path='/Saved' element={<Saved />} />
           <Route path='/Create'/>
         </Routes>
       </Router>
